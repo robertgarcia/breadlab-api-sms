@@ -1,0 +1,24 @@
+{
+    "type": "oracle",
+    "host": "181.115.20.233",
+    "username": "breadlabtesting",
+    "password": "breadlab123",
+    "port": 1521,
+    "sid": "IT",
+    "synchronize": false,
+    "logging": false,
+    "entities": [
+       "entity/**/*.js"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity",
+       "migrationsDir": "src/migration",
+       "subscribersDir": "src/subscriber"
+    }
+ }
