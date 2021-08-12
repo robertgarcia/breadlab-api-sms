@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "ignore": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        ".git",
+        "node_modules"
+    ],
+    "watch": ["*"],
+    "ext": "js",
+    "exec": "node index.js",
+    "exec_old": "set debug=* && ts-node-dev --respawn --files --transpile-only src/index.ts"
+  }
